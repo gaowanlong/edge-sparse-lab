@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+*.venv/
+
+# Outputs
+outputs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Hugging Face cache
+.cache/
