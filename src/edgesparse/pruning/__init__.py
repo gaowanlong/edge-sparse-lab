@@ -10,6 +10,7 @@ from .magnitude import magnitude_prune, magnitude_prune_
 from .wanda import wanda_prune, compute_wanda_scores
 from .structured_nm import nm_prune
 from .block_sparse import block_prune
+from .sparsegpt import sparsegpt_prune, sparsegpt_prune_layer, compute_hessian
 
 __all__ = [
     "create_unstructured_mask",
